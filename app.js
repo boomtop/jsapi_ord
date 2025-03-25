@@ -178,7 +178,6 @@ app.post('/api/add', (req, res) => {
     }
     else{
         res.status(201).json('Error');
-        // stmt.finalize();
         } 
 
         // использование
